@@ -50,6 +50,10 @@ ThemeData getApplicationTheme() {
         color: ColorManager.lightGrey,
         fontSize: FontSize.fontSize14,
       ),
+      subtitle2: getMediumStyle(
+        color: ColorManager.primary,
+        fontSize: FontSize.fontSize14,
+      ),
       caption: getRegularStyle(color: ColorManager.grey1),
       bodyText1: getRegularStyle(color: ColorManager.grey),
     ),
@@ -78,7 +82,6 @@ ThemeData getApplicationTheme() {
         borderSide: BorderSide(
           color: Color(0xff737477),
           width: AppSize.s1_5,
-        
         ),
       ),
       focusedBorder: OutlineInputBorder(
@@ -86,7 +89,6 @@ ThemeData getApplicationTheme() {
         borderSide: BorderSide(
           color: Color(0xffED9728),
           width: AppSize.s1_5,
-        
         ),
       ),
       errorBorder: OutlineInputBorder(
@@ -94,7 +96,6 @@ ThemeData getApplicationTheme() {
         borderSide: BorderSide(
           color: Color(0xffe61f34),
           width: AppSize.s1_5,
-        
         ),
       ),
       focusedErrorBorder: OutlineInputBorder(
@@ -102,7 +103,6 @@ ThemeData getApplicationTheme() {
         borderSide: BorderSide(
           color: Color(0xffED9728),
           width: AppSize.s1_5,
-        
         ),
       ),
     ),
